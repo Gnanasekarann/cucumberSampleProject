@@ -1,0 +1,149 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 11,
+        "name": "Validate the login of CURA with valid and invalid credentials",
+        "description": "",
+        "id": "validate-the-login-functionality-of-cura-website;validate-the-login-of-cura-with-valid-and-invalid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2920047284,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User should launch the chrome browser",
+            "match": {
+              "location": "StepRef.user_should_launch_the_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2498762195,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should enter into the cura website",
+            "match": {
+              "location": "StepRef.user_should_enter_into_the_cura_website()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1763412493,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should enter \"sekargnanas\" and \"admin\" and enter",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sekargnanas\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"admin\"",
+                  "offset": 36
+                }
+              ],
+              "location": "StepRef.user_should_enter_and_and_enter(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21578443,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should enter into appointment page",
+            "match": {
+              "location": "StepRef.user_should_enter_into_appointment_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Validate the login of CURA with valid and invalid credentials",
+        "description": "",
+        "id": "validate-the-login-functionality-of-cura-website;validate-the-login-of-cura-with-valid-and-invalid-credentials;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3407022476,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User should launch the chrome browser",
+            "match": {
+              "location": "StepRef.user_should_launch_the_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2285389065,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should enter into the cura website",
+            "match": {
+              "location": "StepRef.user_should_enter_into_the_cura_website()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 803011611,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should enter \"admin\" and \"admin\" and enter",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"admin\"",
+                  "offset": 30
+                }
+              ],
+              "location": "StepRef.user_should_enter_and_and_enter(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11109527,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should enter into appointment page",
+            "match": {
+              "location": "StepRef.user_should_enter_into_appointment_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Validate the login functionality of CURA website",
+    "description": "",
+    "id": "validate-the-login-functionality-of-cura-website",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Cura.feature",
+    "tags": []
+  }
+]
